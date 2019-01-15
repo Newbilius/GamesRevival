@@ -1,0 +1,1 @@
+[Версия 1.41 под MS-DOS](/files/legacy_141_dos.zip) (1.2 МБ)

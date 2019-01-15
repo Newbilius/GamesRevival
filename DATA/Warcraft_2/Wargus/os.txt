@@ -1,0 +1,6 @@
+Windows
+Linux
+Android
+Symbian
+GP2X / GP2X Wiz
+Windows Mobile

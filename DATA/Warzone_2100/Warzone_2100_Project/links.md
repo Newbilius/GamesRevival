@@ -1,0 +1,1 @@
+[Видео высокого качества.](http://sourceforge.net/projects/warzone2100/files/warzone2100/Videos/high-quality-en/sequences.wz/download) (920 МБ)

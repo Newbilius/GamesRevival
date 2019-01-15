@@ -1,0 +1,1 @@
+[Патч + текстуры. Версия 3.](/files/OUTCAST_V3_PARCHE-HD_Y_FARO_GOG_ByZenger.zip) (97,8 МБ)

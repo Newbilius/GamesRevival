@@ -1,0 +1,1 @@
+Данный патч модифицирует falloutw.exe, что позволяет запускать игру в широком разрешении. Подходит для версий US 1.1, а также совместим с патчами от TeamX 1.2, Fallout Restoration Mod 1.2, польской версией 1.2 и Fallout Collection (PC DVD) WHITE LABEL 1.2.

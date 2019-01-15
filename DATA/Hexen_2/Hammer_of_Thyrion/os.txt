@@ -1,0 +1,7 @@
+Windows
+Linux
+Mac OS X
+MS-DOS
+Amiga OS
+OS/2
+MorphOS

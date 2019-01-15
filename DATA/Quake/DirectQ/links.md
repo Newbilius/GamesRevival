@@ -1,0 +1,1 @@
+[Версия 1.9.0](/files/DirectQ_1.9.0_Executable.zip) (0.4 МБ)

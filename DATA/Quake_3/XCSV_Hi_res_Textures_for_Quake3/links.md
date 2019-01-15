@@ -1,0 +1,1 @@
+[Скачать версию от июля 2010 года.](http://ioquake3.org/files/xcsv_hires.zip) (178 МБ)

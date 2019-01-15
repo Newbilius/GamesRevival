@@ -1,0 +1,1 @@
+[Android-версия 0.2.2](/files/hheretic-0.2.2-.apk) (1 МБ)

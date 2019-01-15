@@ -1,0 +1,1 @@
+[Anroid-версия, beta, но вроде проходима](/files/openxcom-v1.0-apk.zip) (9.07 МБ)
