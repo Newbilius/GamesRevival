@@ -1,3 +1,3 @@
 Windows
-Mac OS X
 Linux
+Mac OS X
