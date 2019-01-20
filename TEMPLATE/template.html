@@ -118,6 +118,16 @@
 			</div>
 		</div>
 		
+		<div class='card'>
+			<div class='card-header' style="font-size:1.3em;">
+			<center>Последние обновления</center>
+			</div>
+			<div class='card-body' style="font-size:1.0em;">
+				<div id='last_updates' style="display:none;"></div>
+				<div id='last_updates_loading_animation'><center><img src='/img/loading.gif'></center></div>
+			</div>
+		</div>
+		
 		<div id="vk_groups"></div>
 		
 		<div>
@@ -197,6 +207,13 @@ $(document).ready(function () {
 	   lastCommentsBlock.html(data);
 	   lastCommentsBlock.show();
 	   $('#last_comments_loading_animation').hide();
+	 });
+	 
+	 $.get( "/updates.html", function( data ) {
+	   var lastCommentsBlock = $('#last_updates');
+	   lastCommentsBlock.html(data);
+	   lastCommentsBlock.show();
+	   $('#last_updates_loading_animation').hide();
 	 });
 });
 
