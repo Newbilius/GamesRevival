@@ -1,8 +1,8 @@
 <?
 $cacheFileName = "last_comments.html";
-$maxCommentLength = 80;
+$maxCommentLength = 120;
 
-if (filemtime("last_comments.html")!==FALSE && (time()-filemtime("last_comments.html"))<120){ //раз в 2 минуты обновляем свежие комменты
+if (filemtime("last_comments.html")!==FALSE && (time()-filemtime("last_comments.html"))<2){ //раз в 2 минуты обновляем свежие комменты
 		echo file_get_contents($cacheFileName);
 	}
 else
@@ -29,10 +29,13 @@ else
 			$dateFormatted = date('d.m.Y',$time);
 
 			$text = $comment->raw_message;
+			echo "!![".strlen($text)."]!!";
+			echo "{".$text."}";
 			
 			if (strlen($text) > $maxCommentLength)
 			{
-				$text = wordwrap( $text, $maxCommentLength) . '...';
+				$str = explode( "\n", wordwrap( $text, $maxCommentLength));
+				$text = $str[0]."...";
 			}
 			
 			$html.="<p><a href='{$comment->url}'>{$comment->author->name}</a>
