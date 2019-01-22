@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function () {
   $('#filter').keyup(function () {
 	var filter = $("#filter").val().toLowerCase();
@@ -15,6 +14,4 @@ $(document).ready(function () {
 	  }
 	});
   });
-
 });
-</script>

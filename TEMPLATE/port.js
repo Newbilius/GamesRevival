@@ -1,4 +1,3 @@
-<script>
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 			event.preventDefault();
 			$(this).ekkoLightbox();
@@ -11,14 +10,9 @@ this.page.url = newURL;
 this.page.identifier = newURL;
 };
 
-(function() { // DON'T EDIT BELOW THIS LINE
+(function() {
 var d = document, s = d.createElement('script');
 s.src = 'https://gamesrevival-ru.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
-
-</script>
-
-  	<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-	<script src="//yastatic.net/share2/share.js"></script>
