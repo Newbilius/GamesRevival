@@ -1,1 +1,1 @@
-Q2VKPT: raytracing сорус порт Quake2
+﻿Q2VKPT: raytracing Quake2
