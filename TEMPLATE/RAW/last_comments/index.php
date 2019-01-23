@@ -7,7 +7,7 @@ if (filemtime("last_comments.html")!==FALSE && (time()-filemtime("last_comments.
 	}
 else
 	{
-	$api_key = file_get_contents("disqus_api_key.txt");
+	include("disqus_api_key.php"); //должен содержать переменную $api_key
 	$forum = 'gamesrevival-ru';
 	$limit = 5;
 
