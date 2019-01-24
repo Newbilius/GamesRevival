@@ -65,17 +65,18 @@ class GitHubApiHelper {
 class GitHubApi{
 	private $API;
 	private $RepositoryName;
-	private $Username;
+	private $RepositoryUser;
 	
-	function __construct($username, $password, $repositoryName){
+	function __construct($username, $password, $repositoryUser, $repositoryName){
 	   $this->Username = $username;
 	   
        $this->API = new GitHubApiHelper($username, $password);
 	   $this->RepositoryName = $repositoryName;
+	   $this->RepositoryUser = $repositoryUser;
 	}
 	
 	private function GetRepoUrl($url){
-		return "repos/{$this->Username}/{$this->RepositoryName}/{$url}";
+		return "repos/{$this->RepositoryUser}/{$this->RepositoryName}/{$url}";
 	}
 	
 	public function CreateBranch($branchName){
@@ -117,7 +118,7 @@ class GitHubApi{
 
 $branchName = "new_".time();
 
-$api = new GitHubApi($username, $password, "ExperimentRepo");
+$api = new GitHubApi($username, $password, "Newbilius", "ExperimentRepo3");
 
 $result = array();
 
