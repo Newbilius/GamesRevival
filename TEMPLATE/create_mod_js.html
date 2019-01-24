@@ -1,0 +1,68 @@
+<!-- https://simplemde.com -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+
+<script>
+	$(document).ready(function () {
+		function subscribeImagePreviewToFileChange(fileId, imageId){
+			$("#"+fileId).on("change", function(){ 
+				if (this.files && this.files[0]) {
+					var reader = new FileReader();
+
+					reader.onload = function (e) {
+						$('#'+imageId)
+							.attr('src', e.target.result);
+					};
+					reader.readAsDataURL(this.files[0]);
+				}
+			});
+		}
+	
+		function onGameSelectorChanged(){
+			var result = $( "#form_game_selector" ).val();
+			
+			if (result == "NULL")
+				$( "#game_card" ).show();
+			else
+				$( "#game_card" ).hide();
+			}
+
+		$( "#form_game_selector" ).change(function() {
+			onGameSelectorChanged();
+		});
+		
+		function getUrlParams() {
+			var vars = {};
+			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+				vars[key] = value;
+			});
+			return vars;
+		}
+		
+		var urlParams = getUrlParams();
+		if (urlParams.hasOwnProperty('GameId'))
+		{
+			$("#form_game_selector")
+				.val(urlParams['GameId'])
+				.change();
+		}
+		
+		//https://simplemde.com/
+		new SimpleMDE({ 
+				element: document.getElementById("formAboutText"),
+				spellChecker: false,
+				hideIcons: ["guide"],
+				status: false,
+				renderingConfig: {singleLineBreaks:false}
+			});
+			
+		onGameSelectorChanged();
+		
+		subscribeImagePreviewToFileChange("gameFileLogo", "gameFileLogoPreview");
+		
+		subscribeImagePreviewToFileChange("modFilePics1", "modFilePicsPreview1");
+		subscribeImagePreviewToFileChange("modFilePics2", "modFilePicsPreview2");
+		subscribeImagePreviewToFileChange("modFilePics3", "modFilePicsPreview3");
+		subscribeImagePreviewToFileChange("modFilePics4", "modFilePicsPreview4");
+	});
+</script>
