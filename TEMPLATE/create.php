@@ -67,10 +67,9 @@ class GitHubApi{
 	private $RepositoryName;
 	private $RepositoryUser;
 	
-	function __construct($username, $password, $repositoryUser, $repositoryName){
-	   $this->Username = $username;
+	function __construct($username, $password, $repositoryUser, $repositoryName){   
+	   $this->API = new GitHubApiHelper($username, $password);
 	   
-       $this->API = new GitHubApiHelper($username, $password);
 	   $this->RepositoryName = $repositoryName;
 	   $this->RepositoryUser = $repositoryUser;
 	}
