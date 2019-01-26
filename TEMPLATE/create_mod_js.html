@@ -19,33 +19,33 @@
 		}
 	
 		function onGameSelectorChanged(){
-			var result = $( "#form_game_selector" ).val();
+			var result = $( "#gameSelector" ).val();
 			
 			if (result == "NULL")
 				$( "#game_card" ).show();
 			else
 				$( "#game_card" ).hide();
 			}
+			
+		function setCheckboxesByStringWithValues(id){
+			var values = $(id)
+				.val()
+				.split(",");
+			for (var i = 0; i < values.length; i++) {
+				var selectedValue = values[i].trim();
+				var checkbox = $(":checkbox[value='"+selectedValue+"']");
+				if (checkbox.length)
+					checkbox.attr("checked","true");
+			}
+		}
 
-		$( "#form_game_selector" ).change(function() {
+		$( "#gameSelector" ).change(function() {
 			onGameSelectorChanged();
 		});
 		
-		function getUrlParams() {
-			var vars = {};
-			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-				vars[key] = value;
-			});
-			return vars;
-		}
-		
-		var urlParams = getUrlParams();
-		if (urlParams.hasOwnProperty('GameId'))
-		{
-			$("#form_game_selector")
-				.val(urlParams['GameId'])
-				.change();
-		}
+		$("#gameSelector")
+			.val(($( "#GameId" ).val()))
+			.change();
 		
 		//https://simplemde.com/
 		new SimpleMDE({ 
@@ -64,5 +64,8 @@
 		subscribeImagePreviewToFileChange("modFilePics2", "modFilePicsPreview2");
 		subscribeImagePreviewToFileChange("modFilePics3", "modFilePicsPreview3");
 		subscribeImagePreviewToFileChange("modFilePics4", "modFilePicsPreview4");
+		
+		setCheckboxesByStringWithValues("#modOSSelected");
+		setCheckboxesByStringWithValues("#modTagsSelected");	
 	});
 </script>

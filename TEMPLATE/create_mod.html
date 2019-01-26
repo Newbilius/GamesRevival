@@ -1,12 +1,19 @@
 <h3>Добавление модификации, порта или ремастера</h3>
 <br>
 
-<form method=post enctype="multipart/form-data">
+#PHP#
+
+<form action="#FILE_NAME#" method=post enctype="multipart/form-data">
+	<input type="hidden" name="formPosted" value="1">
+	<input type="hidden" id="GameId" name="GameId" value="<?=$_REQUEST['GameId']?>">
+	<input type="hidden" id="modOSSelected" name="modOSSelected" value="<?=implode(',',$_POST['modOS'])?>">
+	<input type="hidden" id="modTagsSelected" name="modTagsSelected" value="<?=implode(',',$_POST['modTags'])?>">
+	
 	<div class="card">
 		<div class="card-body" id="form_block">
 			<div class="form-group">
 				<label>Для какой игры добавляем модификацию</label>
-				<select name="form_game_selector" id="form_game_selector" class="form-control">
+				<select name="gameSelector" id="gameSelector" class="form-control">
 					<option value="NULL">===НОВАЯ ИГРА===</option>
 					#GAMES_ITEMS#
 				</select>
@@ -19,12 +26,12 @@
 
 			<div class="form-group">
 				<label>Название игры</label>
-				<input class="form-control" name="gameTitle">
+				<input class="form-control" name="gameTitle" value="<?=$_POST['gameTitle']?>">
 			</div>
 			
 			<div class="form-group">
-				<label>Ссылки. Формат: чередующиеся строки "ссылка/описание" <a target=_blank target=_blankhref=/img/create_links_example.png>(пример)</a></label>
-				<textarea class="form-control" name="formLinks" rows="4" id="gameLinks"></textarea>
+				<label>Ссылки. Формат: чередующиеся строки "ссылка/описание" <a target=_blank href=/img/create_links_example.png>(пример)</a></label>
+				<textarea class="form-control" name="gameLinks" rows="4" id="gameLinks"><?=$_POST['gameLinks']?></textarea>
 			</div>
 			
 			<div class="form-group">
@@ -41,17 +48,17 @@
 
 			<div class="form-group">
 				<label for="modTitle">Название мода</label>
-				<input class="form-control" name="modTitle" id="modTitle">
+				<input class="form-control" name="modTitle" value="<?=$_POST['modTitle']?>" id="modTitle">
 			</div>
 
 			<div class="form-group">
 				<label>Описание в формате <a target=_blank href=https://github.com/sandino/Markdown-Cheatsheet>markdown</a></label>
-				<textarea class="form-control" name="formAboutText" id="formAboutText" rows="4"></textarea>
+				<textarea class="form-control" name="modAbout" id="modAbout" rows="4"><?=$_POST['modAbout']?></textarea>
 			</div>
 
 			<div class="form-group">
-				<label>Ссылки. Формат: чередующиеся строки "ссылка/описание" <a target=_blank target=_blankhref=/img/create_links_example.png>(пример)</a></label>
-				<textarea class="form-control" rows="4" name="modLinks" id="modLinks"></textarea>
+				<label>Ссылки. Формат: чередующиеся строки "ссылка/описание" <a target=_blank href=/img/create_links_example.png>(пример)</a></label>
+				<textarea class="form-control" rows="4" name="modLinks" id="modLinks"><?=$_POST['modLinks']?></textarea>
 			</div>
 
 			<div class="form-group">
@@ -62,7 +69,7 @@
 
 			<div class="form-group">
 				<label>Новые операционные системы (через запятую)</label>
-				<input class="form-control" name="modNewOS" id="modNewOS">
+				<input class="form-control" name="modNewOS" id="modNewOS" value="<?=$_POST['modNewOS']?>">
 			</div>
 
 			<div class="form-group">
@@ -73,15 +80,15 @@
 
 			<div class="form-group">
 				<label>Новые теги (через запятую)</label>
-				<input class="form-control" name="modNewTags" id="modNewTags">
+				<input class="form-control" name="modNewTags" id="modNewTags" value="<?=$_POST['modNewTags']?>">
 			</div>
 
 			<div class="form-group">
 				<label for="modVideo">Видео-ролики с ютуба, ссылки, по одной в строке</label>
-				<textarea class="form-control" name="modVideo" id="modVideo" rows="3"></textarea>
+				<textarea class="form-control" name="modVideo" id="modVideo" rows="3"><?=$_POST['modVideo']?></textarea>
 			</div>
 
-			<!-- todo я ЗНАЮ, что у инпута file есть модификатор multiple, текущий вариант сделан на скорую руку -->
+			<!-- todo я ЗНАЮ, что у инпута file есть модификатор multiple, текущий вариант сделан на скорую руку, ну и чтобы размер одного поста ограничить -->
 			<div class="form-group">
 				<label for="modFilePics1">Скриншоты</label>
 				<br>
@@ -103,17 +110,7 @@
 			
 		</div>
 	</div>
-	<button type="submit" class="btn btn-primary">Отправить на аппрув</button>
+	<button type="submit" class="btn btn-primary btn-lg">Отправить на модерацию</button>
 </form>
 <BR>
 <BR>
-
-<?
-function prettyPrint($value){
-	echo "<pre>";
-	print_r($value);
-	echo "</pre>";
-}
-prettyPrint($_POST);
-prettyPrint($_FILES);
-?>

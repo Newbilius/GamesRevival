@@ -5,6 +5,12 @@ function prettyPrint($value){
 	echo "</pre>";
 }
 
+function preparePosts($values){
+	foreach ($values as $value)
+		if (!isset($_POST[$value]))
+			$_POST[$value] = "";
+}
+
 //должен содержать две переменные - $username и $password
 include("github_api_config.php");
 
@@ -47,7 +53,7 @@ class GitHubApiHelper {
 	private function prepareCurl($url){
 		$process = curl_init($this->endpoint.$url);
 		curl_setopt($process, CURLOPT_USERPWD, $this->username . ":" . $this->password);
-		curl_setopt($process, CURLOPT_USERAGENT,"GamesRevival_Server");
+		curl_setopt($process, CURLOPT_USERAGENT, "GamesRevival_Server");
 		curl_setopt($process, CURLOPT_RETURNTRANSFER, true);
 	
 		return $process;
@@ -116,9 +122,9 @@ class GitHubApi{
 }
 
 $branchName = "new_".time();
-
 $api = new GitHubApi($username, $password, "Newbilius", "ExperimentRepo3");
 
+/*
 $result = array();
 
 $result['createBranch'] = $api -> CreateBranch($branchName);
@@ -126,5 +132,83 @@ $result['file1'] = $api -> CreateFile($branchName, "Duke3D/Folder/file1.md", "**
 $result['file2'] = $api -> CreateFile($branchName, "Duke3D/Folder/file2.md", "*курсивчик*");
 $result['pullRequest'] = $api -> CreatePullRequest($branchName, "создал два файла");
 
-prettyPrint($result);
+prettyPrint($result);*/
+
+preparePosts(array("gameTitle", "gameLinks",
+	"modTitle", "modAbout", "modLinks", "modNewOS", "modNewTags", "modVideo"
+	));
+	
+if (!isset($_POST['modOS']))
+	$_POST['modOS']= array();
+if (!isset($_POST['modTags']))
+	$_POST['modTags']= array();
+
+$errors = array();
+	
+if (!empty($_POST['formPosted'])){
+	if ($_POST['gameSelector']==="NULL" && empty($_POST['gameTitle'])){
+		$errors[]="Не указано название игры";
+	}
+	else{
+		$_REQUEST['GameId'] = $_POST['gameSelector'];
+	}
+	
+	if (empty($_POST['modTitle']))
+		$errors[]="Не указано название модификации";
+	
+	if (empty($_POST['modAbout']))
+		$errors[]="Отсутствует описание модификации";
+	
+	if (empty($_POST['modTags']) && empty($_POST['modNewTags']))
+		$errors[]="Нужно указать хотя бы один тег с типом модификации (sourceport/mod/remaster и т.п.)";
+	
+	if (empty($errors)){
+		$newTagsArray = array();
+		$newOSArray = array();
+		
+		if (!empty($_POST['modNewTags']))
+		{
+			$newTagsTemp = explode(",",$_POST['modNewTags']);
+			foreach ($newTagsTemp as $tagNumber => $tmpTag){
+				$newTagsTemp[$tagNumber] = trim($tmpTag);
+			}
+			$newTagsArray = $newTagsTemp;
+		}
+		if (!empty($_POST['modNewOS']))
+		{
+			$newOSTemp = explode(",",$_POST['modNewOS']);
+			foreach ($newOSTemp as $osNumber => $tmpOS){
+				$tmpOS[$osNumber] = trim($tmpOS);
+			}
+			$newOSArray = $newOSTemp;
+		}
+	}
+}
+
+if (!isset($_REQUEST['GameId']))
+	$_REQUEST['GameId'] = "NULL";
+	
+prettyPrint($_POST);
+echo "<HR>";
+prettyPrint($_FILES);
+echo "<HR>";
+
+/*
+gameFileLogo
+
+modFilePics1
+modFilePics2
+modFilePics3
+modFilePics4
+*/
 ?>
+<? if (!empty($errors)){?>
+<div class="alert alert-danger" role="alert">
+  <?
+	foreach ($errors as $error)
+	{
+		echo "{$error}<br>";
+	}
+  ?>
+</div>
+<?}?>
