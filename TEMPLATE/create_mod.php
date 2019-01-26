@@ -144,6 +144,10 @@ if (!isset($_POST['modTags']))
 	$_POST['modTags']= array();
 
 $errors = array();
+$success = false;
+	
+if (!isset($_REQUEST['GameId']))
+	$_REQUEST['GameId'] = "NULL";
 	
 if (!empty($_POST['formPosted'])){
 	if ($_POST['gameSelector']==="NULL" && empty($_POST['gameTitle'])){
@@ -172,7 +176,7 @@ if (!empty($_POST['formPosted'])){
 			foreach ($newTagsTemp as $tagNumber => $tmpTag){
 				$newTagsTemp[$tagNumber] = trim($tmpTag);
 			}
-			$newTagsArray = $newTagsTemp;
+			$newTagsArray = array_filter($newTagsTemp);
 		}
 		if (!empty($_POST['modNewOS']))
 		{
@@ -180,13 +184,21 @@ if (!empty($_POST['formPosted'])){
 			foreach ($newOSTemp as $osNumber => $tmpOS){
 				$tmpOS[$osNumber] = trim($tmpOS);
 			}
-			$newOSArray = $newOSTemp;
+			$newOSArray = array_filter($newOSTemp);
 		}
+		
+		
+		$os = implode(PHP_EOL, array_merge($newOSArray,$_POST['modOS']));
+		$tags = implode(PHP_EOL, array_merge($newTagsArray,$_POST['modTags']));
+		prettyPrint($os);
+		prettyPrint($tags);
+		
+		$modLinks = array_filter(explode(PHP_EOL,$_POST['modLinks']));
+		prettyPrint($modLinks);
+		
+		//$success = true;
 	}
 }
-
-if (!isset($_REQUEST['GameId']))
-	$_REQUEST['GameId'] = "NULL";
 	
 prettyPrint($_POST);
 echo "<HR>";
@@ -210,5 +222,11 @@ modFilePics4
 		echo "{$error}<br>";
 	}
   ?>
+</div>
+<?}?>
+
+<? if ($success){?>
+<div class="alert alert-success" role="alert">
+   Огромное спасибо! Новые данные отправлены на премодерацию :)
 </div>
 <?}?>
