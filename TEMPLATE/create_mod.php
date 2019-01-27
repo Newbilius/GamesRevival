@@ -349,7 +349,7 @@ if (!empty($_POST['formPosted'])){
 			}
 		}
 		
-		$api -> CreatePullRequest($branchName, "Добавил мод {$_POST['modTitle']} для {$gameFolder}");
+		$api -> CreatePullRequest($branchName, "Добавлен мод {$_POST['modTitle']} для {$gameFolder}");
 		
 		//complete
 		$success = true;
