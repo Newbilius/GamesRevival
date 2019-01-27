@@ -35,7 +35,7 @@
 			</div>
 			
 			<div class="form-group">
-				<label for="gameFileLogo">Логотип</label>
+				<label for="gameFileLogo">Логотип (формат JPEG, не более 1.5 МБ, не более 400 пикселей по ширине)</label>
 				<br>
 				<input type="file" name="gameFileLogo" id="gameFileLogo" class="input-default-js">
 				<img id="gameFileLogoPreview" style="max-width:200px;">	
@@ -62,7 +62,7 @@
 			</div>
 
 			<div class="form-group">
-				<label>Поддерживаемые операционные системы</label><br>
+				<label>Операционные системы</label><br>
 
 				#OS_ITEMS#
 			</div>
@@ -73,7 +73,7 @@
 			</div>
 
 			<div class="form-group">
-				<label>Существующие теги</label><br>
+				<label>Теги</label><br>
 
 				#TAG_ITEMS#
 			</div>
@@ -90,7 +90,7 @@
 
 			<!-- todo я ЗНАЮ, что у инпута file есть модификатор multiple, текущий вариант сделан на скорую руку, ну и чтобы размер одного поста ограничить -->
 			<div class="form-group">
-				<label for="modFilePics1">Скриншоты</label>
+				<label for="modFilePics1">Скриншоты (формат JPEG, каждый файл не более 1.5 МБ)</label>
 				<br>
 				<input type="file" name="modFilePics1" id="modFilePics1" class="input-default-js">
 				<img id="modFilePicsPreview1" style="max-width:200px;">	
@@ -111,6 +111,7 @@
 		</div>
 	</div>
 	<button type="submit" class="btn btn-primary btn-lg">Отправить на модерацию</button>
+	<BR><BR>После клика отправка данных занимает в районе 10-20 секунд, так что не пугайтесь, страница не зависла, всё идёт по плану :)
 </form>
 <BR>
 <BR>
