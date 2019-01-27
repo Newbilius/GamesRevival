@@ -1,6 +1,7 @@
 <!-- https://simplemde.com -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
 <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js?hl=ru'></script>
 
 <script>
 	$(document).ready(function () {
@@ -51,7 +52,7 @@
 		new SimpleMDE({ 
 				element: document.getElementById("modAbout"),
 				spellChecker: false,
-				hideIcons: ["guide"],
+				hideIcons: ["guide","image"],
 				status: false,
 				renderingConfig: {singleLineBreaks:false}
 			});

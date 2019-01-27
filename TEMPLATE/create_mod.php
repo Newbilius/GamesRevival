@@ -209,6 +209,24 @@ if (!isset($_REQUEST['GameId']))
 	$_REQUEST['GameId'] = "NULL";
 	
 if (!empty($_POST['formPosted'])){
+	
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
+	curl_setopt($ch, CURLOPT_HEADER, 0);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_POSTFIELDS, [
+		'secret' => "6LftAI0UAAAAADqQnO2gv0VA06wywDxchyjJ7FhL",
+		'response' => $_POST['g-recaptcha-response']
+	]);
+
+	$resp = json_decode(curl_exec($ch));
+	curl_close($ch);
+
+	if (!$resp->success) {
+		$errors[]="Подтвердите капчу!";
+	}
+	
 	if ($_POST['gameSelector']==="NULL" && empty($_POST['gameTitle'])){
 		$errors[]="Не указано название игры";
 	}
