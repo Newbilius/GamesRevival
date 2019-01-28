@@ -373,5 +373,6 @@ if (!empty($_POST['formPosted'])){
 <? if ($success){?>
 <div class="alert alert-success" role="alert">
    Огромное спасибо! Новые данные отправлены на премодерацию и в течение 1-2 дней появятся на сайте :)
+   <br>Следить за процессом <a href=https://github.com/Newbilius/GamesRevival/pulls>можно тут.</a>
 </div>
 <?}?>
