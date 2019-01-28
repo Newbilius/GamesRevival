@@ -1,1 +1,0 @@
-[Оригинал в GOG](https://www.gog.com/game/fallout_2)
