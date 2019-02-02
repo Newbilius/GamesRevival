@@ -1,3 +1,9 @@
+# Сайт GamesRevival
+
+Здесь находятся данные, по которым строится статический сайт [Games Revival](https://www.gamesrevival.ru/).
+
+Генератор сайта по этим данным [находится тут](https://github.com/Newbilius/GamesRevivalSiteGenerator).
+
 # Инструкции
 
 1. [Как добавить модификацию/порт/ремастер/etc](/MANUAL/create.md)
