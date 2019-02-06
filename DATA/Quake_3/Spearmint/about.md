@@ -1,9 +1,11 @@
-    Aspect correct widescreen.
-    High resolution font support (TrueType).
-    Bullet marks on doors and moving platforms.
-    Dynamic lights have smoother edges.
-    Four player splitscreen support.
-    Improved Bot AI.
-    Improved gamepad support.
-    Instagib mode.
-    Unlagged instant hit weapons (optional).
+Игровой движок на базе порта ioquake3, добавляющий кучу полезных фич и графических улучшений:
+
+* SlitScreen на 4 игроков
+* Улучшенное динамическое освещения
+* Улучшенная поддержка высоких разрешений (правка соотношения сторон + фильтрация шрифтов)
+* Улучшенная поддержка геймпадов
+* Улучшенный AI
+* Метки от снарядов теперь остаются на дверях и движущихся платформах
+* Мясо и гильзы от пуль двигаются вместе с движущимися платфорами
+* Улучшена анимации тени игрока
+* ...и многое другое
