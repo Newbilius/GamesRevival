@@ -1,7 +1,9 @@
 #### Файлы
 [Версия от **13.05.2014** - для Linux, Windows, Mac OS X, исходники...](/files/darkplacesengine20140513.zip) (26.8 МБ)
 
-[Максимальный набор текстур](https://www.moddb.com/mods/optimized-rygel/downloads/rygels-texturepack-xolveoptimized)
+[Максимальный набор текстур](http://icculus.org/twilight/darkplaces/files/rygel-dp-texturepack-ultra.pk3)
+
+[Максимальный набор текстур](https://www.moddb.com/mods/optimized-rygel/downloads/rygels-texturepack-xolveoptimized) (альтернативная ссылка)
 
 [Средний набор текстур](/files/rygel-dp-texturepack-high.pk3) (892 МБ)
 
