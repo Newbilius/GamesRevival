@@ -1,0 +1,1 @@
+Используя AI NeuralNetworks (A lot of Nividia's texture tools : super resolution and и little bit of Topaz's AI gigaPixel), все текстуры и спрайты были увеличены в 8 раз (с тоннами артефактов ИИ), а затем уменьшены до окончательного 2-кратного разрешения для восстановления пиксельной графики.
