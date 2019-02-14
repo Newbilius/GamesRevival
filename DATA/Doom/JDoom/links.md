@@ -1,12 +1,4 @@
 #### Файлы
-[Windows-версия 1.10.3](/files/doomsday_1.10.3.exe) (19.8 МБ)
-
-[Macintosh-версия 1.10.3, 64 бита](/files/doomsday_1.10.3.dmg) (39.0 МБ)
-
-[Macintosh-версия 1.10.3, 32 бита](/files/doomsday_1.10.3_32bit.dmg) (54.9 МБ)
-
-[Macintosh-версия 1.10.3, под MacOs 10.6](/files/doomsday_1.10.3_mac10_6.dmg) (73.5 МБ)
-
 [Наборк моделей и эффектов](/files/jdrp-packaged-20070404.zip) (22.1 МБ)
 
 [Текстуры высокого разрешения](/files/jdtp-20081108.pk3) (90 МБ)
