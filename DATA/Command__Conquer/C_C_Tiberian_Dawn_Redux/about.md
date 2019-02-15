@@ -1,0 +1,1 @@
+Ремастер **Command & Conquer: Tiberian Dawn** на движке **Command & Conquer: Generals Zero Hour** в виде мода для него. Полностью воссозданы компании ГДИ и НОД.
