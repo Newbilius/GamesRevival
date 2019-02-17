@@ -1,0 +1,2 @@
+[Оригинал в GOG](https://www.gog.com/game/arcanum_of_steamworks_and_magick_obscura)
+
