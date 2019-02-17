@@ -1,4 +1,3 @@
-[Сайт:](https://nukeykt.retrohost.net)
+[Сайт](https://nukeykt.retrohost.net)
 
-[Github:](https://github.com/nukeykt/NBlood)
-
+[Github](https://github.com/nukeykt/NBlood)
