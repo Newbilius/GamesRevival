@@ -1,2 +1,1 @@
-[Ссылка](https://meru.github.io/FFIX-Field-Patch/)
-
+[Оригинал в Steam](https://store.steampowered.com/app/377840/FINAL_FANTASY_IX/)
