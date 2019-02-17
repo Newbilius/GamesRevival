@@ -1,3 +1,3 @@
-[Сайт](https://nukeykt.retrohost.net)
+[Скачать со страницы автора](http://nukeykt.retrohost.net/)
 
-[Github](https://github.com/nukeykt/NBlood)
+[Github страница проекта](https://github.com/nukeykt/NBlood)
