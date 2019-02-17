@@ -5,5 +5,3 @@ NBlood - это порт Blood, основанный на EDuke32.
 - Программная и OpenGL (polymost) обработка графики. 
 - CD-аудио, точная эмуляция FM OPL3 (SB / AdLib). 
 - Поддержка DEF / HRP. 
-
-Автор: NukeYKT с сайта duke4.net
