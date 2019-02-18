@@ -1,5 +1,5 @@
-ODROID
-OpenPandora
 Windows
 Linux
 Android
+ODROID
+OpenPandora

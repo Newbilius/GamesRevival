@@ -1,6 +1,3 @@
-4К
-улучшенный AI
-MSAA
 sourceport
 улучшенные текстуры
 split screen
