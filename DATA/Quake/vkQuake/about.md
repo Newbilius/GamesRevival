@@ -1,0 +1,1 @@
+vkQuake - это порт Quake 1, использующий для рендеринга Vulkan вместо OpenGL. Он основан на популярном порте [QuakeSpasm](https://www.gamesrevival.ru/games/Quake/Quake_Spasm/)
