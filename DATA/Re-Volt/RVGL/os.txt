@@ -1,0 +1,5 @@
+Windows
+Linux
+Android
+ODROID
+OpenPandora
