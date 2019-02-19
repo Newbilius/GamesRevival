@@ -1,4 +1,3 @@
-[Ссылка:](https://www.nexusmods.com/dragonage/mods/1601/?tab=description)
+[Оригинал в GOG](https://www.gog.com/game/dragon_age_origins)
 
-[Тема обсуждения:](https://forums.nexusmods.com/index.php?/topic/229926-dragon-age-single-fixes-endorsements/page-72)
-
+[Оригинал в Steam](https://store.steampowered.com/app/17450/Dragon_Age_Origins/)
