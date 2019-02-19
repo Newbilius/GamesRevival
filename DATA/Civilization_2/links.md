@@ -1,4 +1,1 @@
-[Обсуждение:](https://forums.civfanatics.com/threads/623515/)
-
-[Гитхаб:](https://github.com/FoxAhead/Civ2-UI-Additions)
-
+[Оригинал на Old-Games.ru](https://www.old-games.ru/game/download/319.html)
