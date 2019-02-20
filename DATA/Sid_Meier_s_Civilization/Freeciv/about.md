@@ -1,0 +1,1 @@
+Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization.
