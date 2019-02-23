@@ -1,0 +1,4 @@
+Nintendo Switch
+Windows
+Linux
+OpenPandora
