@@ -12,4 +12,4 @@
  
 ### Cannon Fodder 2 (DOS-версия)
 
-Копируем с образа диска содержимое папки **VIE\CANNON2\ENGLISH** в папку **%USERPROFILE%/Documents/OpenFodder/Data/Dos2_CD**
+Копируем с образа диска содержимое папки **VIE/CANNON2/ENGLISH** в папку **%USERPROFILE%/Documents/OpenFodder/Data/Dos2_CD**
