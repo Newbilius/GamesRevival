@@ -5,4 +5,3 @@
 [Ручная настройка](https://wiki.hard-light.net/index.php/Manually_Installing_FreeSpace_2_Open)
 
 [Исходники на GitHub](https://github.com/scp-fs2open)
-
