@@ -19,10 +19,6 @@
 
 [Описание освещения на картах для mission pack 1](/files/romirtlights_soa.pk3) (30 КБ) - поместить в папку id1.
 
-[Альтернативный набор текстур от проекта **Quake Retexturing Project**. Очень хорош. Версия 1.0.](http://bfeared.com/library/quake/qrp/QRP_map_textures_v.1.00.pk3.7z) (367 МБ)
-
-[Альтернативный набор карт нормалей от проекта **Quake Retexturing Project**. Очень хорош. Версия 1.0.](http://bfeared.com/library/quake/qrp/QRP_normalmap_textures_add-on_v.1.00.pk3.7z) (341 МБ)
-
-[Альтернативный набор текстур мелких объектов и HUD от **Quake Retexturing Project**. Версия 0.73.](http://qrp.quakeone.com/qrp_downloads/QRP_item_textures_v.0.73_dp.pk3.7z) (55 МБ)
+[Альтернативный набор текстур от проекта **Quake Retexturing Project**.](https://qrp.quakeone.com/)
 
 [Значительно улучшенная шейдерная водичка, с отражениями. Для включения после распаковки в уже запущенной игре наберите в консоли команду exec water.cfg](/files/dp_pretty_water.zip) (2.2 МБ)
