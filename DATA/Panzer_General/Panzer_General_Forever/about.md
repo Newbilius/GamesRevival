@@ -1,1 +1,1 @@
-Римейк оригинальной игры + stand-alone мода Allied General.
+Ремейк оригинальной игры + stand-alone мода Allied General.
