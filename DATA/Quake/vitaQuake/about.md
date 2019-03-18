@@ -1,0 +1,1 @@
+Порт для Playstation Vita. Использует GPU, играет музыку и поддерживает моды и аддоны, включая официальные Scourge of Armagon и Dissolution of Eternity.
