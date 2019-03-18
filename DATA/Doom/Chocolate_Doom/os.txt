@@ -3,3 +3,4 @@ Linux
 Mac OS X
 Symbian
 Windows Mobile
+PlayStation Vita
