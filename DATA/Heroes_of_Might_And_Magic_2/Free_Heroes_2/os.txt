@@ -2,3 +2,4 @@ Windows
 Linux
 Android
 Windows Mobile
+PlayStation Vita
