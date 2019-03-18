@@ -1,4 +1,4 @@
-#### Дополнительные ссылки
+[Версия для PlayStation Vita](https://github.com/fgsfdsfgs/vitaXash3D)
 
 [Форум](https://cs-mapping.com.ua/forum/forumdisplay.php?f=189)
 
