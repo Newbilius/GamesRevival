@@ -1,0 +1,1 @@
+Ремейк движка Diablo II на Java и LibGDX.
