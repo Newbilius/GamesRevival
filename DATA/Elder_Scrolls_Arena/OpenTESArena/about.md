@@ -1,0 +1,1 @@
+Перенос The Elder Scrolls : Arena на самописный движок от afritz1(ник автора в GitHub). Порт на три основные платформы: Linux, windows, mac os. Пожелаем удачи автору! p.s для запуска нужна floppy версия !
