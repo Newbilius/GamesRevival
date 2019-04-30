@@ -1,0 +1,1 @@
+OutpostHD is a reimplementation of OUTPOST published by Siera On-Line in 1994. It is not a clone. It's a complete redesign of OUTPOST taking the core concepts and reimplementing them in a much more fun and more responsive game.
