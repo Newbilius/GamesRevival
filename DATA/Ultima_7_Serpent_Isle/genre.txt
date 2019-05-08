@@ -1,2 +1,2 @@
 Action
-FPS
+RPG
