@@ -1,0 +1,1 @@
+[Оригинал на сайте Old-Games](https://www.old-games.ru/game/7743.html)
