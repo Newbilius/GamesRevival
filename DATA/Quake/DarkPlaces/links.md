@@ -5,10 +5,6 @@
 
 [Максимальный набор текстур](https://www.moddb.com/mods/optimized-rygel/downloads/rygels-texturepack-xolveoptimized) (альтернативная ссылка)
 
-[Средний набор текстур](/files/rygel-dp-texturepack-high.pk3) (892 МБ)
-
-[Малый набор текстур](http://quore.free.fr/download/rygel-dp-texturepack-small.pk3) (230 МБ)
-
 [Набор файлов, описывающих освещение. Позволяют использовать бамп-маппинг и параллакс не включая полное освещение в реальном времени (которые требует очень много ресурсов)](/files/deluxemaps_id1.pk3) (17.5 МБ)
 
 [Quake Reforged - Bestiary. Комплект текстур высокого разрешения для монстров. (размер текстур - 1024)](http://quakeone.com/reforged/Bestiary/files/QR_QuakeBestiary_1024.7z) (65.5 МБ)
