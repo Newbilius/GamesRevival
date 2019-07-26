@@ -1,0 +1,1 @@
+Source-порт Prince of Persia для запуска на Windows и Linux. Добавлены расширенные настройки геймплея, quick save и quck load. Рекомендуется, если не умеете пользовать DOSbox. Не требует оригинал.
