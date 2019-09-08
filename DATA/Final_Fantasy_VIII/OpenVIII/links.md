@@ -1,6 +1,3 @@
-[Репозиторий:](https://github.com/MaKiPL/OpenVIII)
+[Сайт проекта](https://makipl.github.io/OpenVIII/)
 
-[Сайт:](https://makipl.github.io/OpenVIII/)
-
-[Канал YouTube:](https://www.youtube.com/channel/UCuLXdXLOXHZigmeKq3niN-Q)
-
+[Исходный код на Github](https://github.com/MaKiPL/OpenVIII)
