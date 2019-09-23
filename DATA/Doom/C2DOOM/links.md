@@ -7,7 +7,7 @@
 
 [Symbian. **CORE** Версия 1.14 для S90](/files/c2-doom-core-114.sisx) (2 МБ)
 
-[Symbian. **CORE** Версия 1.03 для S80](/files/c2doom_s80(1.03).sis) (0.4 МБ)
+[Symbian. **CORE** Версия 1.03 для S80 v1](/files/c2doom_s80(1.03).sis) (0.4 МБ)
 
 [Symbian. **CORE** Версия 1.15 для S90](/files/c2doom_core(1.15).sisx) (1.9 МБ)
 
