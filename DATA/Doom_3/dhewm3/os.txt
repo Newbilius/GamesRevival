@@ -1,0 +1,6 @@
+Windows
+Linux
+Mac OS X
+FreeBSD
+OpenBSD
+AROS
