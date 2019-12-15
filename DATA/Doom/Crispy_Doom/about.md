@@ -1,0 +1,1 @@
+Crispy Doom, это модификация Chocolate Doom, меняет некоторые вещи из Chocolate Doom, к примеру поддержка 640x400
