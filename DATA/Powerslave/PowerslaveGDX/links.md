@@ -1,0 +1,1 @@
+[Скачать музыку](https://m210.duke4.net/index.php/downloads/download/9-gdxpacks/60-powerslave-music-pack) - оригинальная игра использовала CD-audio, но порт читать музыку с диска не умеет. Архив с музыкой нужно распаковать в директорию с игрой.
