@@ -1,3 +1,2 @@
-Ubuntu
 Windows
 Linux
