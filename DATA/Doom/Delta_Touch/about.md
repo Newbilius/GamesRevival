@@ -1,0 +1,1 @@
+Комплект из нескольких портов в рамках одного приложения, содержит в себе GZDoom, LZDoom, Zandronum 3.0, Chocolate Doom, PrBoom+ и RetroDoom.
