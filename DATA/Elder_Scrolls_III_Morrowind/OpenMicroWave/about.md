@@ -1,1 +1,1 @@
-порт Elder Scrolls III: Morrowind на андроид
+Порт Elder Scrolls III: Morrowind на андроид, поддерживающий русскую версию игры и моды!
