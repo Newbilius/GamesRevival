@@ -1,3 +1,13 @@
-This pack provides modified files and CONs to make it possible to run the
-game using modern ports. (eDuke32) The game is also translated to English and includes
-widescreen compatible HUD sprites.
+Перенос русского шутера "Ликвидатор" на движки EDuke32 и BuildGDX. Спрайты дорисованы для запуска в широкоформатном режиме, содержит перевод на английский язык.
+
+Для запуска нужно НЕ РАСПАКОВЫВАТЬ файл liquidator.zip.
+
+#### Запуск в EDuke32
+
+**Вариант 1**: перетащить файл liquidator.zip на eduke32.exe
+
+**Вариант 2**: запустить EDuke32 с парамером /g liquidator.zip
+
+#### Запуск в BuildGDX
+
+Запустить DukeGDX и в меню "new game" -> "user content" выбрать liquidator.zip (НЕ РАСПАКОВЫВАЯ )
