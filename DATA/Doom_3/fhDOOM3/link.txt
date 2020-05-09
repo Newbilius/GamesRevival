@@ -1,1 +1,1 @@
-https://github.com/eXistence/fhDOOM
+https://github.com/eXistence/fhDOOM/releases
