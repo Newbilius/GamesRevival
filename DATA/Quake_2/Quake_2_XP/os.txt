@@ -1,1 +1,3 @@
 Windows
+Linux
+Free BSD (эксперементально)
