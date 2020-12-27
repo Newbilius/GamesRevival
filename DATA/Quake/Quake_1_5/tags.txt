@@ -1,7 +1,3 @@
-Brutal quake
-brutal quake
-brutal doom
-sourceport
 mod
 улучшенные текстуры
 3d-модели
