@@ -1,1 +1,0 @@
-[Бинарный релиз pre-beta 0.3 под windows](http://cowboyua.clan.su/dave_files_1/DD2_ME_v0.3pre_beta.zip)
