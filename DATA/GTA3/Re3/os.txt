@@ -1,0 +1,6 @@
+Windows
+Linux
+Nintendo Switch
+FreeBSD
+PlayStation Vita
+Nintendo Wii U
