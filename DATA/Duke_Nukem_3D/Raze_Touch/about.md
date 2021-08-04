@@ -1,0 +1,1 @@
+Перенос на Android source-порта Raze Engine (Build engine перенесённый внутрь GZDoom). Поддерживает все самые популярные игры на этом движке - Duke Nukem 3D, Blood, Nam, Redneck Rampage, Shadow Warrior и Powerslave/Exhumed. Все игры должны быть полностью проходимы, управление очень тонко настраивается, поддерживаются геймпады, поддерживаются моды.
