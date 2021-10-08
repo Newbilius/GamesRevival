@@ -1,1 +1,0 @@
-OpenApoc is a mod for X-COM: Apocalypse, it's built on a new, free, and open-source engine that re-implements the features of the original. OpenApoc requires the original files to run, is licensed under the GPL3 and written in C++ / SDL2.
