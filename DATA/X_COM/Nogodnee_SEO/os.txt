@@ -1,0 +1,27 @@
+Windows
+Linux
+Mac OS X
+Android
+iOS
+MS-DOS
+Nintendo Switch
+OpenPandora
+FreeBSD
+Haiku
+Symbian
+GP2X / GP2X Wiz
+PlayStation Vita
+Windows Mobile
+Sony Ericsson SE
+AROS
+OpenBSD
+Браузер
+MorphOS
+Atari TOS
+Nintendo Wii U
+Amiga OS
+OS/2
+Dreamcast
+Nintendo DS
+Nintendo 3DS
+ODROID
