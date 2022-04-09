@@ -1,2 +1,4 @@
 Windows
 Android
+Mac OS X
+Linux
