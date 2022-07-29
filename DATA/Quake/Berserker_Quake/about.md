@@ -1,0 +1,1 @@
+Порт от создателя [Berserker@Quake2](/games/Quake_2/BerserkerQuake2/) и [Berserker@Quake3](/games/Quake_3/BerserkerQuake3/). Классная система освещения, плюс текстуры и модели аналогичные [Darkplaces](u/games/Quake/DarkPlaces/).
