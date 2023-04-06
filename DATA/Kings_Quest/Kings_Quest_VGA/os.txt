@@ -1,3 +1,2 @@
 Windows
 Mac OS X
-MS-DOS
