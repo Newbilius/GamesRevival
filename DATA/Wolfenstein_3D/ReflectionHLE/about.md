@@ -1,0 +1,1 @@
+Консервативный порт **Wolfenstein 3-D** и **Spear of Destiny** (а также игр серии **Catacomb** и **Commander Keen in Keen Dreams**) с акцентом на точное воспроизведение оригинала, а также сохранение отличий из разных версий этих игр, наподобие [Chocolate Doom](https://www.gamesrevival.ru/games/Doom/Chocolate_Doom/).
