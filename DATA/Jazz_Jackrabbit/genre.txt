@@ -1,1 +1,2 @@
-Arcade
+Platform
+Shooter
