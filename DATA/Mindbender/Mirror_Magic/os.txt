@@ -1,0 +1,6 @@
+Windows
+Linux
+Mac OS X
+Android
+MS-DOS
+Amiga OS
