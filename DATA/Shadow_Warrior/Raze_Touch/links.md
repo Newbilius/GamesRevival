@@ -1,3 +1,3 @@
-[Скачать APK](https://github.com/emileb/Raze_Touch)
+[Скачать APK](http://opentouchgaming.com/zeta-touch/)
 
-[Github страница проекта](http://opentouchgaming.com/raze-touch)
+[Страница проекта на GitHub](https://github.com/emileb/Zeta_Touch)
