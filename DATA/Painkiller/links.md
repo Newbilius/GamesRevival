@@ -1,3 +1,5 @@
+[Оригинал на Old-Games.ru](https://www.old-games.ru/game/8227.html)
+
 [Страница игры в магазине Steam](https://store.steampowered.com/app/39530/Painkiller_Black_Edition/)
 
 [Страница игры в магазине GOG](https://www.gog.com/game/painkiller)
