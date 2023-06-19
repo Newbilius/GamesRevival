@@ -6,7 +6,7 @@
 
 **Вариант 1**: перетащить файл liquidator.zip на eduke32.exe
 
-**Вариант 2**: запустить EDuke32 с парамером /g liquidator.zip
+**Вариант 2**: запустить EDuke32 с параметром /g liquidator.zip
 
 #### Запуск в BuildGDX
 
