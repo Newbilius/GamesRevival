@@ -2,4 +2,4 @@
 
 P.S. В данный момент не поддерживает модификацию Eye of Argonia. С ней даже не пытайтесь запустить - вылетит.
 
-Порт является частью проекта XL Engine (очччень амбицизный проект - автор хочет сделать на одном движке реконструкции игр Elder Scrolls II - Daggerfall, Star Wars - Dark Forces, Blood и Outlaws.
+Порт является частью проекта XL Engine (очччень амбициозный проект - автор хочет сделать на одном движке реконструкции игр Elder Scrolls II - Daggerfall, Star Wars - Dark Forces, Blood и Outlaws.
