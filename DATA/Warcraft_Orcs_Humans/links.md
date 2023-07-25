@@ -1,1 +1,1 @@
-[Оригинал на Old-Games.ru]https://www.old-games.ru/game/72.html)
+[Оригинал на Old-Games.ru](https://www.old-games.ru/game/72.html)
