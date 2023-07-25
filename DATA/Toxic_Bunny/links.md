@@ -1,2 +1,1 @@
-[Оригинал steam](https://store.steampowered.com/app/305010/Toxic_Bunny_HD/)
-
+[Оригинал на Old-Games.ru](https://www.old-games.ru/game/2111.html)
