@@ -1,2 +1,0 @@
-GTA Vice City The Final Remastered Edition - это полная переработка игры, включающая множество модов от талантливых моддеров и создающая совершенно новый опыт.
-Данный мод лучше чем  definitive edition от 	Rockstar Games и 	Grove Street Games .
