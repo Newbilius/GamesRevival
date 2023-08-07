@@ -1,1 +1,1 @@
-https://github.com/OpenMW/openmw/releases
+https://gitlab.com/OpenMW/openmw/-/releases
