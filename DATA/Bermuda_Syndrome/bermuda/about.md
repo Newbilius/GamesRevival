@@ -1,0 +1,1 @@
+Homebrew порт, основанный на [реимплементации движка оригинальной игры на Windows](https://www.gamesrevival.ru/games/Bermuda_Syndrome/Bermuda_Syndrome_SDL/) 
