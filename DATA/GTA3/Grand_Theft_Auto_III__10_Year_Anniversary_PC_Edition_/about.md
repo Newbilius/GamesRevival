@@ -1,0 +1,1 @@
+Grand Theft Auto III: 10 Year Anniversary PC Edition - это полная конверсионная модификация, которая исследует возможности мобильной версии Grand Theft Auto III для компьютерной версии GTA III для ПК.
