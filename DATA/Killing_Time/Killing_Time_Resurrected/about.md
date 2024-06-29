@@ -1,0 +1,3 @@
+You’ve been asking for it and we’re excited to finally be able to share the killer news that Killing Time is BACK! That’s right, we teamed up with publisher Ziggurat Interactive on an HD revival of Killing Time coming soon to PC and consoles.
+
+Originally released in 1995, the original Killing Time was a sophisticated shooter laced with gallows humor beloved by fans of action, adventure, mystery, and puzzle games alike. Killing Time: Resurrected honors this with the addition of toggleable high-resolution character artwork/sprites from the original 3DO and PC versions of the game, upscaled environmental texturing, smoother gameplay, more responsive controls, expanded control and key-bind settings, and more.
