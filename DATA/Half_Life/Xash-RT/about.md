@@ -1,4 +1,4 @@
-Raytracing модификация Xash3D.
+Raytracing модификация [/games/Half_Life/Xash3D/](Xash3D).
 
 Для игры требутся x86_64 dll. Для HL они входят в комплект поставки Xash-RT.
 
