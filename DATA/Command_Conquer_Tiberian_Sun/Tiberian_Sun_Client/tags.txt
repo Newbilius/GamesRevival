@@ -1,9 +1,2 @@
-Command & Conquer
-Tiberian Sun
-Firestorm
-Client
-stand-alone
-улучшения
 mod
 не требует оригинальной игры
-русский язык
