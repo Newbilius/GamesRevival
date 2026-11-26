@@ -1,0 +1,4 @@
+Action
+RPG
+Shooter
+Simulation
